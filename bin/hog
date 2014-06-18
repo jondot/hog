@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'hog'
+
+# hog binary is reserved for future use
