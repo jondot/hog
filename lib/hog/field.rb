@@ -1,6 +1,8 @@
 module Hog
   class Field
     attr_reader :opts
+    attr_reader :name
+    attr_reader :type
 
     def initialize(type, name, opts={})
       @name = name

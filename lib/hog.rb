@@ -1,11 +1,11 @@
 require "hog/version"
 require 'json'
-require 'hog/tuple'
 require 'hog/field'
 require 'hog/utils'
 require 'hog/pig_schema'
 require 'hog/hive_schema'
 require 'hog/udf_schema'
+require 'hog/tuple'
 
 module Hog
   class << self
